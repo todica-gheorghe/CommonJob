@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "xyz.todica.commonjob"
-        minSdkVersion 15
+        minSdkVersion 16
         targetSdkVersion 23
         versionCode 1
         versionName "1.0"
@@ -22,5 +22,17 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
-    compile 'com.android.support:appcompat-v7:23.1.0'
+    compile 'com.android.support:appcompat-v7:23.2.0'
+    compile 'com.android.support:design:23.2.0'
+//    compile 'com.github.recruit-lifestyle:WaveSwipeRefreshLayout:1.6'
+//    compile 'com.github.fenjuly:ToggleExpandLayout:774e497692'
+    compile 'com.baoyz.swipemenulistview:library:1.3.0'
+//    compile 'com.etsy.android.grid:library:[latest.version.number]'
+    compile 'com.h6ah4i.android.widget.advrecyclerview:advrecyclerview:0.8.6@aar'
+//    compile 'com.timehop.stickyheadersrecyclerview:library:[latest.version.number]@aar'
+    compile "com.dev.sacot41:scviewpager:0.0.4"
+    compile 'com.github.pavlospt:roundedletterview:1.1'
+    compile 'com.amulyakhare:com.amulyakhare.textdrawable:1.0.1'
+    compile 'com.ms-square:expandableTextView:0.1.4'
+    compile 'com.edmodo:cropper:1.0.1'
 }
